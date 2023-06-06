@@ -1,1 +1,228 @@
-# ai-course-cyber-lab-best-practices-for-automated-techniques
+# 🔎 Lab: Best Practices for Automated Techniques
+
+<p><em>Select the tabs to navigate through the content.</em></p>
+<div style="margin: 1em 0%; padding: 10px 15px; border: 2px solid #A2AAAD; background: #ffffff; font-size: 100%; overflow: auto;">
+<div class="enhanceable_content tabs">
+<ul>
+<li><a href="#fragment-1">Introduction</a></li>
+<li><a href="#fragment-2">Procedure</a></li>
+<li><a href="#fragment-3">Part 1 - Select a Workflow</a></li>
+<li><a href="#fragment-4">Part 2 - Outline Your Project Workflow</a></li>
+<li><a href="#fragment-5">Part 3 - Develop Your Prompt Strategy</a></li>
+<li><a href="#fragment-6">Summary</a></li>
+</ul>
+<div id="fragment-1" style="overflow: auto:;">
+<h3>Introduction</h3>
+<p>In the previous lessons, you have learned about automated techniques used in prompt engineering. You had an opportunity to learn about the OpenAI API and how it can be used with Python to enhance the capabilities of LLMs like Chat-GPT through automation.&nbsp;</p>
+<p>In addition, we identified the benefits and limitations of automated prompt engineering and discussed best practices for using automated techniques in developing efficient, effective, and quality-controlled prompt solutions.</p>
+<p>In this exercise, you will be guided to identify your own workflow for an automated prompt solution. By building on the skills you have learned through the duration of this course, you can use this workflow plan as a launching point to begin utilizing the skills from this course right away.</p>
+<h4>Lab Objectives</h4>
+<p>By the end of this lab you will be able to&nbsp;</p>
+<ul>
+<li>Identify best practices for using automated techniques in developing efficient, effective, and quality-controlled prompt solutions</li>
+</ul>
+</div>
+<div id="fragment-2" style="overflow: auto:;">
+<h3>Procedure</h3>
+<p>Work through Part 1 - Part 3 to develop your own automated workflow. In each section, you will be asked to make decisions based on a specific use case related to your work. This is where you will have an opportunity to combine your domain knowledge with the new skills you have acquired as a budding prompt engineer and use discernment to make the choice that is best for your project.&nbsp;</p>
+<p>Remember, prompt solutions are an enhancement of existing skills, and not a replacement! The quality and success of your project is dependent on your expertise in your field as it is on your expertise as a prompt engineer.&nbsp;</p>
+</div>
+<div id="fragment-3" style="overflow: auto:;">
+<h3>Part 1 - Select a Workflow</h3>
+<p>Recall that when we discussed prompt engineering workflows, we introduced two popular processes called <strong>Reinforcement Learning from Human Feedback</strong> and <strong>Rule-Based Prompting</strong>.</p>
+<h4><strong>Question 1: </strong>Which workflow would you choose for a specific use case in your work?</h4>
+<p style="padding-left: 40px;">Select the Workflow 1 and Workflow 2 buttons for a refresher on each workflow.&nbsp;</p>
+<details style="margin-bottom: 2.5rem;">
+<summary style="display: inline-block; background: #394a58; border: 1px solid #8A8B99; padding: 0.5rem 0.75rem; cursor: pointer;"><span style="color: #ffffff;">Workflow 1</span></summary>
+<p style="padding-left: 40px;"><strong>Reinforcement Learning from Human Feedback </strong></p>
+<ol>
+<li style="list-style-type: none;">
+<ol style="list-style-type: decimal;">
+<li>Reinforcement learning is a machine learning technique where an agent learns how to make decisions through trial and error.</li>
+<li>In the context of human feedback, reinforcement learning involves training an AI model by providing it with examples of correct behavior and evaluating its performance based on the feedback received.</li>
+<li>The AI model learns to improve its actions based on the positive or negative signals it receives from human evaluators.</li>
+<li>This iterative process helps the model gradually refine its decision-making capabilities, allowing it to make better choices over time.</li>
+<li>Reinforcement learning from human feedback is particularly useful when there is a need to teach an AI system specific behaviors or optimize its performance in a specific task.</li>
+</ol>
+</li>
+</ol>
+</details><details style="margin-bottom: 2.5rem;">
+<summary style="display: inline-block; background: #394a58; border: 1px solid #8A8B99; padding: 0.5rem 0.75rem; cursor: pointer;"><span style="color: #ffffff;">Workflow 2</span></summary>
+<p style="padding-left: 40px;"><strong>Rule-Based Prompting</strong></p>
+<ol>
+<li style="list-style-type: none;">
+<ol style="list-style-type: decimal;">
+<li>Rule-based prompting is a technique used in natural language processing to guide the behavior of AI models by providing them with explicit rules or instructions.</li>
+<li>These rules define how the model should interpret and respond to different inputs.</li>
+<li>By setting up predefined rules, developers can control the output generated by the model, ensuring it aligns with the desired behavior or objective.</li>
+<li>Rule-based prompting is often employed in scenarios where specific responses or actions are required, such as in chatbots or virtual assistants.</li>
+<li>It allows developers to customize and fine-tune the behavior of the AI model by defining rules that dictate how it should interpret and generate responses based on different inputs.</li>
+<li>This approach provides more control over the model's output and can help ensure that it adheres to specific guidelines or requirements.</li>
+</ol>
+</li>
+</ol>
+</details></div>
+<div id="fragment-4" style="overflow: auto:;">
+<h3>Part 2 - Outline Your Project Workflow</h3>
+<h4><strong>Question 2:</strong> How would you execute the workflow you selected for your project?&nbsp;</h4>
+<p>Refer to the following table to review examples for executing each step of both workflows.</p>
+<table style="width: 100%; border-collapse: collapse; margin: 3em auto; text-align: center; height: 431px;"><caption style="font-size: 120%; text-align: left; padding-top: 5px; padding-right: 10px; padding-bottom: 5px; color: #ffffff; background: #102644;">&nbsp;Outline Your Project Workflow With Examples</caption><colgroup> <col style="border: 1px solid #cccccc; width: 25%;"> <col style="border: 1px solid #cccccc; width: 25%;"> <col style="border: 1px solid #cccccc; width: 25%;"> <col style="border: 1px solid #cccccc; width: 25%;"> </colgroup>
+<tbody>
+<tr style="border: 1px solid #cccccc;">
+<th style="padding: 0.5em; height: 41px;" scope="col">Workflow 1: Reinforcement Learning from Human Feedback</th>
+<th style="padding: 0.5em; height: 41px;" scope="col">Workflow 1 Examples</th>
+<th style="padding: 0.5em; height: 41px;" scope="col">Workflow 2: Rule-Based Prompting</th>
+<th style="padding: 0.5em; height: 41px;" scope="col"><strong>Workflow 2 </strong>Examples&nbsp;</th>
+</tr>
+<tr style="border: 1px solid #cccccc;">
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 1: Data Collection</strong></p>
+<p style="text-align: left;">Collect a dataset that includes examples of input data and corresponding correct behavior or decisions.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>I will collect a dataset by capturing examples of customer queries and the corresponding correct responses from experienced customer support agents. This dataset will serve as the initial training data for the AI model.</blockquote>
+</td>
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 1: Define Task Requirements</strong></p>
+<p style="text-align: left;">Clearly identify the specific task or objective that the AI model needs to accomplish. Determine the desired behavior and the rules that should govern the model's responses.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>I will begin by clearly defining the task requirements for the virtual assistant. I will identify the specific objective, such as providing information about a product or assisting with basic troubleshooting. By determining the desired behavior and the rules that should govern the model's responses, I will establish the foundation for the rule-based prompting.</blockquote>
+</td>
+</tr>
+<tr style="border: 1px solid #cccccc;">
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 2: Initial Model Training</strong></p>
+<p style="text-align: left;">Train an initial AI model using the collected dataset as a starting point.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>“Using the collected dataset, I will train an initial AI model that will be capable of generating responses based on the input queries. Although the model's performance at this stage may not be optimal, it will serve as a starting point for improvement.”</blockquote>
+</td>
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 2: Rule Formulation </strong></p>
+<p style="text-align: left;">Formulate explicit rules or instructions that guide the model's behavior based on different inputs. These rules can be designed to cover various scenarios and capture the desired responses or actions.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>Using the defined task requirements, I will formulate explicit rules or instructions that guide the behavior of the AI model. These rules will cover different scenarios and inputs, specifying the expected responses or actions based on the user's queries. For example, if the user asks about product availability, a rule might instruct the model to provide the current stock status and estimated delivery time.</blockquote>
+</td>
+</tr>
+<tr style="border: 1px solid #cccccc;">
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 3: Human Evaluation</strong></p>
+<p style="text-align: left;">Deploy the initial model and gather feedback from human evaluators who assess its performance.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>Based on the feedback received, I will integrate the evaluators' feedback into the training process. I will use reinforcement learning techniques, such as reward shaping, to assign positive or negative signals to the model's actions. This process will help the model learn from correct behavior and improve its decision-making capabilities.</blockquote>
+</td>
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 3: Model Integration </strong></p>
+<p style="text-align: left;">Incorporate the formulated rules into the AI model by configuring its prompt or input structure. This ensures that the model follows the defined rules when generating responses.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>I will integrate the formulated rules into the AI model by configuring its prompt or input structure. This ensures that the model follows the defined rules during the response generation process. By incorporating the rules into the model's architecture, I can guide its behavior and ensure consistency in the generated outputs.</blockquote>
+</td>
+</tr>
+<tr style="border: 1px solid #cccccc;">
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 4: Feedback Integration</strong></p>
+<p style="text-align: left;">Incorporate the feedback received from human evaluators into the training process. Use techniques like reward shaping to assign positive or negative signals to the model's actions.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>Based on the feedback received, I will integrate the evaluators' feedback into the training process. I will use reinforcement learning techniques, such as reward shaping, to assign positive or negative signals to the model's actions. This process will help the model learn from correct behavior and improve its decision-making capabilities.</blockquote>
+</td>
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 4: Testing and Evaluation </strong></p>
+<p style="text-align: left;">Test the model's performance by providing it with different inputs and assessing its output. Evaluate whether the model adheres to the specified rules and produces the desired responses.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>To ensure the model's effectiveness, I will conduct thorough testing and evaluation. I will provide the model with various inputs and assess its output against the specified rules. This evaluation process will determine if the model adheres to the defined rules and produces the desired responses accurately and reliably.</blockquote>
+</td>
+</tr>
+<tr style="height: 65px;">
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 5: Model Update and Iteration</strong></p>
+<p style="text-align: left;">Update the model using the integrated feedback and repeat the process of human evaluation and feedback integration. Iterate this process until the model achieves the desired level of performance.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>I will update the model using the integrated feedback and repeat the process of human evaluation and feedback integration. I will continue this iterative process, gradually improving the model's performance with each iteration. My goal will be to achieve the desired level of accuracy and relevance in the generated responses.</blockquote>
+</td>
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 5: Refinement and Iteration</strong></p>
+<p style="text-align: left;">Based on the testing and evaluation results, refine the rules and adjust the model's configuration as necessary. Iterate this process until the model consistently meets the task requirements.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>Based on the testing and evaluation results, I will refine the rules and adjust the model's configuration as necessary. If any inconsistencies or gaps are identified, I will iterate on the rule formulation and model integration. This iterative process will continue until the model consistently meets the task requirements and generates the desired responses in accordance with the established rules.</blockquote>
+</td>
+</tr>
+<tr style="height: 65px;">
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 6: Deployment and Fine-Tuning</strong></p>
+<p style="text-align: left;">Deploy the trained model in real-world scenarios and continue to collect feedback from users. Use this feedback to further fine-tune the model and improve its decision-making capabilities over time.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>Once the model reaches a satisfactory level of performance, I will deploy it in real-world scenarios, such as the customer support chatbot. As users interact with the chatbot, I will continue to collect feedback from their interactions. I will use this feedback to further fine-tune the model, addressing any shortcomings or specific user requirements. This continuous feedback loop will ensure that the model evolves and adapts to user needs over time, providing an enhanced customer support experience.</blockquote>
+</td>
+<td style="padding: 0.5em; height: 65px;">
+<p style="text-align: left;"><strong>Step 6: Deployment and Maintenance</strong></p>
+<p style="text-align: left;">Deploy the rule-based model in the intended application or system. Continuously monitor its performance and update the rules if any changes or improvements are needed.</p>
+</td>
+<td style="padding: 0.5em; height: 65px; text-align: left;">
+<blockquote>Once the rule-based model meets the desired performance criteria, I will deploy it in the virtual assistant application. I will monitor its performance in real-world scenarios and gather feedback from users. This feedback will help me fine-tune the rules and make any necessary updates to ensure the model's continued accuracy and effectiveness over time.</blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="fragment-5" style="overflow: auto:;">
+<h3>Part 3 - Develop Your Prompt Strategy</h3>
+<h4><strong>Question 3:</strong> How can you structure your prompt to effectively automate a task? Create a set of prompts for your use case.&nbsp;</h4>
+<p>Here are two examples to get you started. Use these to think of how you might apply these in your own field. Use your domain knowledge to assess the feasibility of automating your task.</p>
+<p>Select each box to reveal details for the examples.</p>
+<details style="margin-bottom: 2.5rem;">
+<summary style="display: inline-block; background: #394a58; border: 1px solid #8A8B99; padding: 0.5rem 0.75rem; cursor: pointer;"><span style="color: #ffffff;">Example: Culinary Menu</span></summary>
+<ul>
+<li><strong>Prompt 1:</strong> Provide me with a list of ingredients that are readily available in Autumn in the North East United States.
+<ul>
+<li><strong>Expected Output: </strong>List of Ingredients</li>
+</ul>
+</li>
+<li><strong>Prompt 2: </strong>"Provide me with recipes for pasta dishes using this selection of these ingredients "
+<ul>
+<li><strong>Expected Output: </strong>List of Recipes</li>
+</ul>
+</li>
+</ul>
+</details><details style="margin-bottom: 2.5rem;">
+<summary style="display: inline-block; background: #394a58; border: 1px solid #8A8B99; padding: 0.5rem 0.75rem; cursor: pointer;"><span style="color: #ffffff;">Example: Travel &amp; Tourism Itinerary</span></summary>
+<ul>
+<li><strong>Prompt 1: </strong>Provide me a list European destinations
+<ul>
+<li><strong>Expected Output: </strong>List of Destinations</li>
+</ul>
+</li>
+<li><strong>Prompt 2:</strong> "Create a personalized travel itinerary for each destination in &nbsp;&lt;List of Destinations&gt; that includes recommendations for attractions, accommodations, and local cuisine. Excluded locations with &lt;your exclusion criteria&gt;"
+<ul>
+<li><strong>Expected Output: </strong>Personalized Travel Itinerary</li>
+</ul>
+</li>
+</ul>
+</details>
+<p>Remember that when it comes to writing prompts that can be generalized over many different topics, it's important to strike a balance between specificity and flexibility. One approach is to provide a broad initial prompt that captures the overall objective, followed by more specific instructions for generating responses related to each topic of interest.&nbsp;</p>
+<p>Select the box to reveal details for the example.</p>
+<details style="margin-bottom: 2.5rem;">
+<summary style="display: inline-block; background: #394a58; border: 1px solid #8A8B99; padding: 0.5rem 0.75rem; cursor: pointer;"><span style="color: #ffffff;">Example: Building a Glossary</span></summary>
+<p><strong>1. For example, let's say you want to use prompt engineering with the OpenAI API to automate the creation of a glossary for computational linguistics. You could start with a prompt like:</strong></p>
+<blockquote style="padding-left: 40px;">Provide me with every vocabulary term for computational linguistics</blockquote>
+<p>This initial prompt sets the overarching goal of generating a comprehensive list of terms related to the field.</p>
+<p><strong>2. To instruct the model to provide definitions for each word in the generated list, you can follow up with a prompt like,</strong></p>
+<blockquote style="padding-left: 40px;">For each word X in the list, Provide me with the definition of X in the context of computational linguistics.</blockquote>
+<p>This instruction establishes a specific pattern for generating responses by iterating over the list and requesting definitions for each term.</p>
+<p>By using this prompt engineering technique, you can leverage the OpenAI API to automate the process of creating a dictionary with definitions for various vocabulary terms in computational linguistics.</p>
+</details></div>
+<div id="fragment-6" style="overflow: auto:;">
+<h3>Summary</h3>
+<p>It's worth noting that prompt engineering requires careful crafting and fine-tuning to achieve desired results. Iterating and refining prompts based on the model's outputs and evaluating their effectiveness is a crucial step in the process.</p>
+<p>By continuously improving the prompts and adjusting instructions, you can enhance the model's ability to generate accurate and contextually appropriate responses, ensuring the automation of tasks like dictionary creation is efficient and effective.</p>
+</div>
+</div>
+</div>
